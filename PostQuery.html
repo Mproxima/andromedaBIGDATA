@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <title>Post Query</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Post Your Query</div>
+        
+        <div>
+            <form method="post" action="PostQuery" >
+                <table>
+                    <tr>
+                        <td>User Id</td>
+                        <td>
+                            <input type="text" id="tbuid" name="tbuid"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Select Technology</td>
+                        <td>
+                            <select id="selqtype" name="selqtype">
+                                <option>CandCPP</option>
+                                <option>Java</option>
+                                <option>Big-Data</option>
+                                <option>PHP</option>
+                            </select>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Question</td>
+                        <td>
+                            <textarea  id="tbq" name="tbq"  ></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Post" />
+                        </td>
+                    </tr>
+                </table>
+                
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>User Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>User Registration Form</div>
+        <form method="post" action="Register">
+        <table border="1">
+            <tr>
+                <td>User Id</td>
+                <td>
+                    <input type="text" id="tbuid" name="tbuid" placeholder="User Id" />
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="password" id="tbupass" name="tbupass" placeholder="Password" />
+                </td>
+            </tr>
+            <tr>
+                <td>User Type</td>
+                <td>
+                    <select id="selutype" name="selutype">
+                        <option>Expert</option>
+                        <option>User</option>
+                        <option>Administrator</option>
+                    </select>                        
+                </td>
+            </tr>
+            <tr>
+                <td>if register as expert select Technoloy</td>
+                <td>
+                    <select id="selexptype" name="selexptype">
+                        <option>CandCPP</option>
+                        <option>Java</option>
+                        <option>Big-Data</option>
+                        <option>PHP</option>
+                        <option>DotNet</option>                        
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td>
+                    <select id="selcity" name="selcity">
+                        <option>Indore</option>
+                        <option>Bhopal</option>
+                        <option>Dewas</option>
+                        <option>Mumbai</option>
+                        <option>Agra</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Register" />
+                </td>
+            </tr>
+        </table>
+            </form>
+    </body>
+</html>
